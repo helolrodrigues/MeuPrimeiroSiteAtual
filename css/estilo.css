@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(191,191,191);
+    background-image: url('../img/branco.jpg');
+    font-family: "Rowdies", sans-serif;
+    color: black
+}
+
+header{ 
+    padding: 3%;
+}
+#menu ul{
+padding: 0px;
+margin: 0px;
+list-style: none;
+}
+
+#menu ul li {display: inline;}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+
+/* Classe atribuida para a div que vai receber o logo tipo */
+.logo{
+color: ;
+}
+
+nav{
+    background-color:rgb(184,209,231)
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Bree Serif", serif;
+}
+
+section{
+
+}
+
+footer{
+    background-color: rgb(112,48,160);
+    padding: 3%;
+}
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+    section{
+        line-height: 1;
+        font-size: 1em;
+    }
+
+h1{
+    font-size: 3.5em;
+    color: #FFD180;
+    font-family: "Righteous", sans-serif;
+}
+
+    h2{
+        line-height: 3;
+    font-size: 1.5em;
+}
+h3{
+    line-height: 3.5em;
+    font-size: 2.5em;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  

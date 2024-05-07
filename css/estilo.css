@@ -25,7 +25,6 @@ list-style: none;
 
 /* Classe atribuida para a div que vai receber o logo tipo */
 .logo{
-color: ;
 }
 
 nav{
@@ -68,22 +67,22 @@ footer{
     }
 
 h1{
-    font-size: 3.5em;
+    font-size: 4em;
     color: #FFD180;
     font-family: "Righteous", sans-serif;
 }
 
     h2{
-        line-height: 3;
-    font-size: 1.5em;
+        line-height: 3em;
+    font-size: 1.8em;
 }
 h3{
     line-height: 3.5em;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 p{
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .rowdies-light {

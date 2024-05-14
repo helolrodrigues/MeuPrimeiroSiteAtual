@@ -1,8 +1,8 @@
 body {
     background-color: rgb(191,191,191);
-    background-image: url('../img/branco.jpg');
+    background-image: url('../img/preta\ 2.jpg');
     font-family: "Rowdies", sans-serif;
-    color: black
+    color: white;
 }
 
 header{ 
@@ -28,7 +28,7 @@ list-style: none;
 }
 
 nav{
-    background-color:rgb(184,209,231)
+    background-color: white;
 }
 
 main{
@@ -66,18 +66,19 @@ footer{
         font-size: 1em;
     }
 
-h1{
-    font-size: 4em;
-    color: #FFD180;
-    font-family: "Righteous", sans-serif;
-}
-
     h2{
+    color:sandybrown;
         line-height: 3em;
     font-size: 1.8em;
 }
 h3{
     line-height: 3.5em;
+    font-size: 2em;
+}
+
+h4{
+    color: #FFD180;
+    line-height: 1.5em;
     font-size: 2em;
 }
 
@@ -114,4 +115,13 @@ p{
     font-weight: 400;
     font-style: normal;
   }  
-  
+
+figure{
+    text-align: center;
+}
+
+
+  .caixa-image{
+    text-align: center;
+    margin-top: 1%;
+  }

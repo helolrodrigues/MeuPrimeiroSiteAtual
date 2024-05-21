@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(191,191,191);
+    background-color: black;
     background-image: url('../img/imagem\ escura.png');
     font-family: "Rowdies", sans-serif;
     color: white;
@@ -7,22 +7,37 @@ body {
 
 header{ 
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#menu ul{
-padding: 0px;
-margin: 0px;
-list-style: none;
+
+.titulos{
+  line-height: 3;
+  text-align: center;
+  font-weight: bold;
 }
 
 #menu ul li {display: inline;}
+
+/* CRIANDO O MENU */
 
 #menu ul li a {
     padding: 2px 10px;
     display: inline-block;
     text-decoration: none;
     border-bottom: 3px solid rgb(190, 159, 73);
+    white-space: nowrap;
     color: white;
 }
+
+#menu ul{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  }
+  
+/* FIM DA FORMATAÇÃO DO MENU */
 
 /* Classe atribuida para a div que vai receber o logo tipo */
 .logo{
@@ -35,15 +50,16 @@ main{
     font-family: "Bree Serif", serif;
 }
 
-section{
-
-}
 
 footer{
     background-color:black;
     padding: 3%;
 }
 
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
 .cabecalho{
     padding: 3%;
 }
@@ -52,25 +68,31 @@ footer{
     padding: 3%;
 }
 
-.titulos{
-    line-height: 3;
-    text-align: center;
-    font-weight: bold;
-}
+
     section{
         line-height: 1;
         font-size: 1em;
     }
     p{
         font-size: 1.2em;
+        line-height: 1.5;
+        text-align: justify;
     }
 
+    h1{
+      color:sandybrown;
+      font-family: "Indie Flower", cursive;
+      line-height: 4em;
+      font-size: 2em;
+    }
+    
     h2{
     color:sandybrown;
         line-height: 3em;
     font-size: 2em;
     font-family: "Indie Flower", cursive;
 }
+
 h3{
     line-height: 3.5em;
     font-size: 3em;
@@ -117,6 +139,11 @@ h4{
 
 figure{
     text-align: center;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -137,6 +164,7 @@ figure{
     font-style: normal;
   }
 
+  figure 
   
   
   
